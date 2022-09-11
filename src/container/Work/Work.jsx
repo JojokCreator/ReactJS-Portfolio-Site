@@ -93,7 +93,7 @@ const Work = () => {
               </motion.div>
             </div>
 
-            <div className="app__work-content app__flex">
+            <div className="app__work-content app__flex" onClick={()=>window.open(work.codeLink, "_blank")}>
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
