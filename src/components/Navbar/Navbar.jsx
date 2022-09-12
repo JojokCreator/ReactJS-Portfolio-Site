@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-
 import './Navbar.scss';
+import DarkToggle from '../DarkToggle/DarkToggle';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -54,6 +54,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
+        <DarkToggle />
     </nav>
   );
 };

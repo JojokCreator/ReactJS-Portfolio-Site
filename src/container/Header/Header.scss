@@ -1,6 +1,13 @@
+#home.light {
+  background: url("../../assets/bgIMG.png");
+}
+
+#home.dark {
+  background: url("../../assets/bgIMG2.png");
+}
+
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
