@@ -159,8 +159,10 @@
     flex-direction: rows;
     font-size: 2em;
     justify-content: space-between;
-    color: white;
     width: 80%;
+  }
+  a {
+    color: var(--gray-color);
   }
 
   @media (hover: none)  {
