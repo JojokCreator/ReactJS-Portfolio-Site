@@ -3,11 +3,10 @@ import  './components/DarkToggle/DarkToggle.scss';
 import { About, Footer, Header, Skills, Work } from './container';
 import { Navbar } from './components';
 import './App.scss'
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
-  const TRACKING_ID = "UA-213987738-2"; // OUR_TRACKING_ID
-  ReactGA.initialize(TRACKING_ID);
-  ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize("G-WGVTW9T3C0");
+ReactGA.send("pageview");
 
 const App = () => {
   return (
