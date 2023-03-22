@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# My Portfolio Site
+## Overview
+This is my personal portfolio site, where I showcase my frontend development projects and skills. The site is built using React. It also includes some useful libraries, such as Framer Motion and Formspree.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+- A landing page that displays my recent projects and personal information
+- A clean and easy-to-navigate design that highlights my work
+- A contact form using Formspree for visitors to reach out to me directly
+- Integration with Sanity.io for managing and displaying project images and descriptions
+- Use of Framer Motion library for smooth and engaging animations.
 
-## Available Scripts
+# Backend
+## Sanity.io
+I chose to use Sanity.io as my backend for managing and displaying project images and descriptions. Sanity.io is a headless CMS that provides a flexible schema and an intuitive user interface to help create, manage and display content for my portfolio site. It provided a perfect solution for me as it has several advantages like its ease of use, flexibility, and scalability.
 
-In the project directory, you can run:
+# Libraries Used
+## Framer Motion
+I used Framer Motion library to add some design elements to my portfolio site. This library helps to create engaging animations and transitions between different elements on the site. This was useful in adding a touch of beauty and interest to the site, and it also helped to improve user engagement.
 
-### `npm start`
+## Formspree
+Formspree was a useful library in this project because I needed an easy way for visitors to contact me. The Formspree API made it easy to create a simple contact form, and it also helped me to avoid the hassle of setting up a server and managing the backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
