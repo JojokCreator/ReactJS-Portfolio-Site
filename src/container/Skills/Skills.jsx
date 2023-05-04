@@ -7,7 +7,7 @@ import { urlFor, client } from "../../client";
 import "./Skills.scss";
 
 const Skills = () => {
-  const [experiences, setExperiences] = useState([]);
+  const [setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Skills = () => {
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
     });
-  }, []);
+  }, [setExperiences]);
 
   return (
     <>
