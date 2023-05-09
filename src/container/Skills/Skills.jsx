@@ -7,7 +7,7 @@ import { urlFor, client } from "../../client";
 import "./Skills.scss";
 
 const Skills = () => {
-  const [setExperiences] = useState([]);
+  const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
